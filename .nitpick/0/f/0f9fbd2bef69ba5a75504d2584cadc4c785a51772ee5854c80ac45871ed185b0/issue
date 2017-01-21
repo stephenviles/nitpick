@@ -1,0 +1,18 @@
+Component: Documentation
+Date: 2017-01-21 09:10:07
+Depends_On: 
+Duplicate_Of: 
+Fix_By: 1.2
+Owner: stephen@viles.nz
+Percent_Complete: 0
+Priority: 5
+Reported_By: stephen@viles.nz
+Resolution: None
+Seen_In_Build: 
+Severity: Trivial
+State: New
+Title: Typos in docs
+Type: Bug
+Units_of_Work: 1000
+--
+The documentation files README and repo.txt have a few minor typos.
