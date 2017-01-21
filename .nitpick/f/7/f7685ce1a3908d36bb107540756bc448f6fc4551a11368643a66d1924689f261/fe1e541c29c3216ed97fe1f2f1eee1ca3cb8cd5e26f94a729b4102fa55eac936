@@ -1,0 +1,8 @@
+Attachment: 
+Attachment-filename: 
+Attachment-type: application/octet-stream
+Date: 2017-01-21 10:32:28
+Parent: 6a3e7d3eab630b228b84f13295c597a6ec86dcebce31c2a927ba8bcd7f238d4d
+User: stephen@viles.nz
+--
+This change has allowed me to commit changes using git, while config remains at svn.
