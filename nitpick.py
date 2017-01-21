@@ -2398,6 +2398,9 @@ def load_config():
 	for key in ['components', 'fix_by', 'priority', 'severity', 'state', 'resolution', 'type']:
 		config.issues[key] = []
 	
+	if 'NITPICK_VCS' in os.environ and os.environ['NITPICK_VCS'] in BACKENDS:
+		config.vcs = BACKENDS[os.environ['NITPICK_VCS']]
+
 	_load_config(config.db_path)
 
 	# Try to figure out the username to use.
